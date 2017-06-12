@@ -1,0 +1,166 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+p {
+	font-family: Lato, sans-serif;
+}
+
+i {
+	font-size: 7em !important;
+	padding: 10px;
+}
+
+.bg-brown {
+	background-color: #A89F68;
+}
+
+.bg-green {
+	background-color: #41521F;
+}
+
+.btn {
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+nav *,
+#fourth-section * {
+	text-shadow: -3px 3px 4px rgba(0, 0, 0, .5);
+}
+
+.navbar-default {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;  
+}
+
+#first-section *,
+#third-section *,
+#fourth-section *,
+#sixth-section .btn,
+#seventh-section *,
+footer p {
+	color: white;
+	font-weight: bold;
+}
+
+#second-section h2, 
+#second-section h4,
+#second-section a,
+#fifth-section h3,
+#fifth-section i,
+footer .about,
+footer a
+{
+	color:  #A89F68;
+}
+
+#third-section h3,
+#sixth-section h3 {
+	color: #41521F;
+}
+
+
+#first-section,
+#fourth-section {
+	height: 100vh;
+}
+
+section,
+footer {
+	padding: 100px 0;
+}
+
+#first-section {
+	background-image: url(../img/portada.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#first-section > .container,
+#first-section > .container > .row,
+#second-section > .container,
+#second-section > .container > .row,
+#third-section > .container,
+#third-section > .container > .row {
+	height: 100%;
+}
+
+#first-section > .container > .row,
+#second-section > .container > .row,
+#third-section > .container > .row {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#second-section img,
+#third-section img {
+	width: 100%;
+}
+
+#second-section .contenido > .row {
+	display: flex;
+}
+
+#second-section .col2 {	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+#third-section img {
+	border: 10px solid white;
+}
+
+#fourth-section {
+	background-image: url(../img/all.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#fifth-section *,
+#sixth-section *{
+	text-align: center;	
+}
+
+#sixth-section .spaced {
+	letter-spacing: .5em;
+}
+
+#sixth-section .money {
+	color: white;
+	font-weight: bold;
+	display: flex;
+	justify-content: center
+}
+
+#sixth-section .money .num{
+	font-size: 5em;
+	line-height: 1em;
+	font-weight: normal;
+}
+
+#sixth-section .money .sup{
+	margin-bottom: auto;
+}
+
+#sixth-section .money .sub{
+	margin-top: auto;
+}
+
+footer .col2 .row > * {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
