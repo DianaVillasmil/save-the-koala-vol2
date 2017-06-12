@@ -48,7 +48,8 @@ nav *,
 #fourth-section *,
 #sixth-section .btn,
 #seventh-section *,
-footer p {
+footer p, 
+.modal .btn {
 	color: white;
 	font-weight: bold;
 }
